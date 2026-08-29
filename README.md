@@ -1,60 +1,12 @@
-# Kotlin — Estudos, Exercícios e Desafios
+# Kotlin — Estudos e Exercícios
 
-Repositório dedicado ao estudo contínuo de **Kotlin**, com uma trilha autoral de exercícios progressivos, soluções documentadas e desafios práticos organizados para registrar a evolução técnica ao longo do tempo.
+Repositório dedicado ao estudo contínuo de **Kotlin** por meio de exercícios progressivos, soluções documentadas e exemplos executáveis.
 
-O objetivo é avançar dos fundamentos da linguagem até orientação a objetos, programação funcional, coleções, coroutines, testes, princípios de engenharia de software, arquitetura e pequenos projetos, mantendo um histórico de commits claro e rastreável.
+O objetivo é acompanhar a evolução técnica desde os fundamentos da linguagem até orientação a objetos, programação funcional, Collections, coroutines, testes, princípios de engenharia de software e arquitetura, sempre com foco em código idiomático e legível.
 
-## 🚀 Desafio Kotlin — 2 meses de evolução
+## 📈 Progressão dos exercícios
 
-A partir de **29 de agosto de 2026**, este repositório recebe uma trilha contínua de exercícios por **2 meses**, com encerramento em **29 de outubro de 2026**.
-
-A dificuldade é **cumulativa e adaptativa**: um novo dia nunca reinicia a trilha. Antes de criar cada exercício, o conteúdo existente deve ser analisado para que o próximo desafio avance de forma coerente e evite repetições.
-
-### Rotina de segunda a sexta
-
-Execuções dentro da janela de **09h às 12h30**:
-
-- 09h00
-- 10h00
-- 11h00
-- 12h30
-
-### Rotina de fim de semana
-
-Sessões noturnas iniciadas aos sábados e domingos, dentro da janela de **20h às 02h30**:
-
-- 20h00
-- 21h00
-- 22h00
-- 23h00
-- 00h00
-- 01h00
-- 02h30
-
-A faixa após a meia-noite é tratada como continuação da sessão iniciada na noite anterior.
-
-## 🎯 Objetivos da trilha
-
-Ao longo dos dois meses, a trilha deve demonstrar não apenas conhecimento sintático, mas também evolução de raciocínio, legibilidade, modelagem e maturidade de engenharia.
-
-Os exercícios devem progressivamente desenvolver:
-
-- lógica de programação;
-- domínio da sintaxe idiomática de Kotlin;
-- decomposição de problemas;
-- orientação a objetos e modelagem de domínio;
-- programação funcional;
-- null safety;
-- manipulação eficiente de coleções;
-- tratamento de erros;
-- concorrência estruturada com coroutines;
-- testes automatizados;
-- princípios SOLID;
-- padrões de projeto;
-- organização de código e arquitetura;
-- integração dos conceitos em pequenos sistemas.
-
-## 📈 Trilha de aprendizagem
+Os exercícios são organizados com dificuldade crescente. Cada novo problema deve considerar os conceitos já praticados, evitar repetições e introduzir novos recursos de forma gradual.
 
 ### Etapa 1 — Fundamentos de Kotlin
 
@@ -154,9 +106,9 @@ Os exercícios devem progressivamente desenvolver:
 - organização em pacotes e camadas quando o problema justificar;
 - Gradle e estruturação de projetos.
 
-### Etapa 8 — Desafios integradores
+### Etapa 8 — Exercícios integradores
 
-Nos estágios finais, os exercícios passam a combinar múltiplos conceitos em pequenos sistemas Kotlin, incluindo:
+Nos estágios mais avançados, os exercícios combinam múltiplos conceitos, incluindo:
 
 - múltiplas classes e pacotes;
 - persistência simples;
@@ -166,7 +118,7 @@ Nos estágios finais, os exercícios passam a combinar múltiplos conceitos em p
 - testes;
 - padrões de projeto;
 - decisões de arquitetura;
-- pequenos projetos de console ou backend quando apropriado;
+- aplicações de console ou backend quando apropriado;
 - documentação de trade-offs e decisões técnicas.
 
 ## 📂 Organização dos exercícios
@@ -186,7 +138,7 @@ Exercicios-Progressivos/
 └── ...
 ```
 
-Quando necessário, um exercício pode evoluir para uma estrutura como:
+Quando necessário, um exercício pode utilizar uma estrutura Gradle:
 
 ```text
 exercicio/
@@ -208,15 +160,14 @@ Cada exercício deve conter, sempre que aplicável:
 2. **Objetivo** — competência principal desenvolvida.
 3. **Requisitos** — regras da implementação.
 4. **Entrada e saída esperadas** — exemplos de execução.
-5. **Conceitos praticados** — recursos de Kotlin trabalhados.
+5. **Conceitos praticados** — recursos de Kotlin utilizados.
 6. **Abordagem da solução** — explicação objetiva do raciocínio.
 7. **Implementação** — código Kotlin completo e executável.
 8. **Validação** — casos de teste ou cenários utilizados para conferir a solução.
 9. **Complexidade/decisões técnicas** — quando pertinente, registrar escolhas relevantes e possíveis alternativas.
 
-## 🧭 Princípios da trilha
+## 🧭 Princípios dos exercícios
 
-- começar no nível mais iniciante;
 - não repetir problemas já existentes;
 - aumentar a dificuldade continuamente;
 - privilegiar código idiomático em Kotlin;
@@ -226,37 +177,37 @@ Cada exercício deve conter, sempre que aplicável:
 - utilizar nomes claros para funções, classes e propriedades;
 - introduzir abstrações apenas quando agregarem valor;
 - manter cada exercício compreensível de forma independente;
-- aplicar boas práticas compatíveis com o nível atual da trilha;
-- evitar simplesmente transportar padrões de Java para Kotlin quando a linguagem oferecer uma solução mais idiomática;
-- documentar decisões importantes nos desafios mais avançados.
+- aplicar boas práticas compatíveis com o nível do exercício;
+- evitar transportar padrões de Java mecanicamente quando Kotlin oferecer uma solução mais idiomática;
+- documentar decisões importantes nos exercícios mais avançados.
 
 ## 🔀 Padrão de commits
 
-A trilha utiliza **Conventional Commits** e commits atômicos.
+Os exercícios utilizam **Conventional Commits** e commits atômicos.
 
 Exemplos:
 
 ```text
-feat(exercises): add basic input challenge
-feat(exercises): add when expression challenge
-feat(exercises): add collections transformation challenge
-feat(exercises): add coroutine processing challenge
+feat(exercises): add basic input exercise
+feat(exercises): add when expression exercise
+feat(exercises): add collections transformation exercise
+feat(exercises): add coroutine processing exercise
 test(exercises): add validation scenarios
 refactor(exercises): improve domain responsibilities
-docs: update Kotlin learning roadmap
+docs: update Kotlin exercise roadmap
 ```
 
-Como regra, cada exercício novo deve ser entregue em **um commit próprio**, contendo apenas os arquivos relacionados àquele desafio.
+Como regra, cada exercício novo deve ser entregue em **um commit próprio**, contendo apenas os arquivos relacionados àquele exercício.
 
 ## 📚 Referências de estudo
 
-A trilha é autoral, mas utiliza materiais técnicos reconhecidos como apoio conceitual. Os exercícios não devem copiar exemplos literalmente; as referências servem para estudar conceitos e orientar boas práticas.
+Os exercícios são autorais, mas utilizam materiais técnicos reconhecidos como apoio conceitual. As referências servem para estudar conceitos e orientar boas práticas, sem copiar exemplos literalmente.
 
 ### Livro principal
 
 **AIGNER, Sebastian; ELIZAROV, Roman; ISAKOVA, Svetlana; JEMEROV, Dmitry. _Kotlin in Action_. 2. ed. Manning Publications, 2024. ISBN 9781617299605.**
 
-O livro acompanha a progressão proposta para o repositório: fundamentos da linguagem, sistema de tipos, programação funcional, interoperabilidade com Java, generics, DSLs, coroutines, Flow e concorrência estruturada.
+O livro cobre fundamentos da linguagem, sistema de tipos, programação funcional, interoperabilidade com Java, generics, DSLs, coroutines, Flow e concorrência estruturada.
 
 - Manning: https://www.manning.com/books/kotlin-in-action-second-edition
 
@@ -264,17 +215,17 @@ O livro acompanha a progressão proposta para o repositório: fundamentos da lin
 
 **Philipp Lackner — KOTLIN NEWBIE TO PRO**
 
-Playlist prática em inglês que apresenta Kotlin progressivamente e complementa o estudo escrito com demonstrações de implementação.
+Playlist prática em inglês com demonstrações progressivas de implementação em Kotlin.
 
 - YouTube: https://www.youtube.com/playlist?list=PLQkwcJG4YTCRSQikwhtoApYs9ij_Hc5Z9
 
-Como material complementar mais recente do mesmo autor, o curso _Full 2025 Kotlin Crash Course For Beginners_ revisita fundamentos, nullability, `when`, arrays, loops, funções, extension functions, lambdas, classes, interfaces, sealed classes e generics.
+Material complementar do mesmo autor:
+
+**Full 2025 Kotlin Crash Course For Beginners**
 
 - YouTube: https://www.youtube.com/watch?v=dzUc9vrsldM
 
 ### Documentação oficial
-
-A documentação oficial deve ser utilizada como fonte primária para confirmar comportamento da linguagem, APIs e recursos atuais:
 
 - Kotlin Documentation: https://kotlinlang.org/docs/home.html
 - Kotlin Coroutines Guide: https://kotlinlang.org/docs/coroutines-guide.html
