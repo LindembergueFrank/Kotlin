@@ -1,3 +1,5 @@
+import java.util.Locale
+
 fun main() {
     print("Nome do aluno: ")
     val nome = readln()
@@ -18,6 +20,6 @@ fun main() {
 
     println()
     println("Aluno: $nome")
-    println("Média: %.2f".format(media))
+    println("Média: %.2f".format(Locale.US, media))
     println("Situação: $situacao")
 }
